@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>134B9B9F-23FC-4A92-A06D-A04550C63B92</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Sunspider</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D0E89C7C475E4722C90C2010DF12C57D2ED45CF3</key>
+		<string>github.com:wjlafrance/cocoaconf.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>webview/Sunspider/Sunspider.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D0E89C7C475E4722C90C2010DF12C57D2ED45CF3</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:wjlafrance/cocoaconf.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D0E89C7C475E4722C90C2010DF12C57D2ED45CF3</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D0E89C7C475E4722C90C2010DF12C57D2ED45CF3</string>
+			<key>IDESourceControlWCCName</key>
+			<string>cocoaconf</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -9,7 +9,8 @@ class OldTestViewController: UIViewController {
         let request = NSURLRequest(URL: NSURL(string: "http://www.webkit.org/perf/sunspider-1.0.2/sunspider-1.0.2/driver.html"))
 
         webView = UIWebView(frame: view.bounds)
-        self.view.addSubview(webView!)
+
+        view.addSubview(webView!)
 
         webView!.loadRequest(request)
     }
