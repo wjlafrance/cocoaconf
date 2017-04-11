@@ -18,12 +18,21 @@ void printMemory(uint8_t *address, unsigned int length) {
 		printf("%08X  ", (unsigned int) address);
 
 		for (int k = 0; k < LINE_LENGTH; k++) {
-			printf("%c", isprint(address[j + k]) ? address[j+k] : '.');
+			if (k % CHUNK_WIDTH == 0) { printf(" "); }
+			if (j + k >= length) {
+				printf(" ");
+			} else if (isprint(address[j + k])) {
+				printf("%c", address[j + k]);
+			} else {
+				printf(".");
+			}
 		}
-		for (int k = 0; k < LINE_LENGTH; k++) {
-			if (k % LINE_LENGTH == 0) { printf(" "); }
-			printf("%02X ", address[j + k]);
+
+		for (int k = 0; k < LINE_LENGTH && j + k < length; k++) {
+			if (k % CHUNK_WIDTH == 0) { printf(" "); }
+			printf(" %02X", address[j + k]);
 		}
+
 		printf("\n");
 	}
 }
