@@ -6,3 +6,5 @@ func main() {
 }
 
 main()
+
+printMemoryTest()
